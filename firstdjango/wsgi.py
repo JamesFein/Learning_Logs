@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "firstdjango.settings")
 
 application = get_wsgi_application()
+
+# connect it the vercel app. Something to do with ALlowd_HOSTS= ['.vercel.app']
+app = application
+
